@@ -48,7 +48,7 @@ namespace StormWeb
             while (reader2.Read())
             {
                 string sitenametemp = reader2["Sitename"].ToString();
-                string sitelinktemp = reader2["Siteurl"].ToString();
+                string sitelinktemp = reader2["Siteurl"].ToString().TrimEnd();
                 siteURL.Add(sitenametemp, sitelinktemp);
             }
             dbm.closeConnection();

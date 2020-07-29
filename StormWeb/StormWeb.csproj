@@ -152,9 +152,10 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\Site.css" />
-    <Content Include="images\SideBarCPF.PNG" />
+    <Content Include="images\CPFbackground.png" />
+    <Content Include="images\cpfbox.png" />
+    <Content Include="images\finalpanel2.png" />
     <Content Include="images\TopBarCPF.PNG" />
-    <Content Include="images\TopPanel.PNG" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="WebForm1.aspx" />
